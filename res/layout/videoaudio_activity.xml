@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wison="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8" >
+
+        <com.wifitalk.Utils.Coordinates
+            android:id="@+id/coordinates"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <SurfaceView
+            android:id="@+id/decodeVideo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        
+        <TextView
+            android:id="@+id/tv_video_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textSize="20sp" />
+
+        <SeekBar
+            android:id="@+id/sb_zoom_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:max="100"
+            android:progress="0" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextureView
+            android:id="@+id/tv_video_preview"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_camera_info"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/sw_led"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/led"
+            android:textColor="@android:color/black" />
+
+        <Switch
+            android:id="@+id/sw_photo_or_video"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textOff="@string/take_photo"
+            android:textOn="@string/record_video"
+            android:thumb="@drawable/switch_thumb"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_switch_camera"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="onSwitchCamera"
+            android:text="@string/switch_camera"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/sp_resolution"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="发送"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+
+</LinearLayout>

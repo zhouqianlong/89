@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="register_name_digits">  ._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="app_name">Minervue</string>
+    <string name="app_is_online">Status: online</string>
+    <string name="app_is_offline">Status: offline</string>
+    <string name="contacting_server">Contacting server…</string>
+    <string name="obtaining_upgrade_info">Checking for update…</string>
+    <string name="system_setting">Settings</string>
+    <string name="video_and_photo">Record</string>
+    <string name="gas_detection">Gas detection</string>
+    <string name="browser_file">Browse files</string>
+    <string name="real_time_monitor">Monitor</string>
+    <string name="opening">Opening…</string>
+    <string name="preheating">Preheating…</string>
+    <string name="operation_failed">Device communication failed. Please contact admin.</string>
+    <string name="invalid_state">Device state is invalid. Please contact admin.</string>
+    <string name="timed_out">Device timed out. Please retry later.</string>
+    <string name="processing">Processing…</string>
+    <string name="general">General</string>
+    <string name="take_photo">Photo</string>
+    <string name="record_video">Video</string>
+    <string name="server_address">Server address</string>
+    <string name="control_port">Control port</string>
+    <string name="video_port">Video port</string>
+    <string name="audio_port">Audio port</string>
+    <string name="saved">Saved&#160;</string>
+    <string name="nothing_to_show">Nothing to show</string>
+    <string name="directory">Directory</string>
+    <string name="unknown_file">Unknown file</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="start_monitor">Connect</string>
+    <string name="stop_monitor">Disconnect</string>
+    <string name="being_monitored">Being monitored&#8230;</string>
+    <string name="choose_priority">Choose priority</string>
+    <string name="led">LED</string>
+    <string name="server_rejected_you">Server rejected your request</string>
+    <string name="connection_lost">Connection lost</string>
+    <string name="front_camera">Front camera</string>
+    <string name="back_camera">Back camera</string>
+    <string name="crash_log_saved_to">Crash log saved to&#160;</string>
+    <string name="server_no_respond">No respond</string>
+    <string name="waiting_for_background_service">Waiting for background service…</string>
+    <string name="machine_number">Machine ID&#160;</string>
+    <string name="enter_sn_here">Please enter serial number here</string>
+    <string name="copy">Copy</string>
+    <string name="register">Register</string>
+    <string name="auto_register">Remote Register</string>
+    <string name="fetching_remote_sn">Fetching serial number from remote…</string>
+    <string name="copied">Copied</string>
+    <string name="succeeded">Succeeded</string>
+    <string name="failed">Failed</string>
+    <string name="please_check_your_sn">Please recheck your serial number</string>
+    <string name="valid_date">Valid date&#160;</string>
+    <string name="from">From&#160;</string>
+    <string name="to">To&#160;</string>
+    <string name="delete">Delete</string>
+    <string name="delete_success">Deleted</string>
+    <string name="delete_fail">Failed to delete</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="image_file">Image file</string>
+    <string name="pub_file">Next file</string>
+    <string name="sensor_file">Sensor file</string>
+    <string name="video_file">Video file</string>
+    <string name="tv_new">New file</string>
+    <string name="confirm">Determine</string>
+    <string name="input_address">Please enter the record</string>
+    <string name="loading">Getting data…</string>
+    <string name="error_tip">Status cue</string>
+    <string name="file_save_success">File save successfully</string>
+    <string name="file_save_fail">File save failed</string>
+    <string name="adress">Please enter the location, the location can not be empty</string>
+    <string name="fileOrderByDate">Time sorting</string>
+    <string name="fileOrderByLeve">Rank order</string>
+    <string name="browse">Horizontal screen</string>
+    <string name="browse_l">Vertical screen</string>
+    <string name="gps_inter">GPSIntercom</string>
+
+    <string-array name="priority">
+        <item>[1]&#160;Normal</item>
+        <item>[2]&#160;Important</item>
+        <item>[3]&#160;Emergent</item>
+    </string-array>
+
+    <string name="camera_file">Take picture</string>
+    <string name="address_peizhi">Address Config</string>
+    <string name="baochi_lianjie">Stay link</string>
+    <string name="liang_du">Brightness</string>
+    <string name="blue">Bluetooth</string>
+    <string name="Gprs">Data traffic</string>
+    <string name="tv_duijiang">Intercom</string>
+    <string name="tv_file">Browse file</string>
+    <string name="tv_monitor">Request monitoring</string>
+    <string name="tv_setting">System settings</string>
+    <string name="tv_video_phone">Video phone</string>
+    <string name="tv_all">More functions</string>
+    <string name="tv_address">Address configuration</string>
+    <string name="zc_lj">Normal link</string>
+    <string name="bc_lj">Stay link</string>
+    <string name="qh_zc_lj">Switch to normal mode</string>
+    <string name="qh_bc_lj">Switch to stay connected mode</string>
+    <string name="kq_ll">Open flow</string>
+    <string name="gb_ll">Close flow</string>
+    <string name="mi_ma">Password</string>
+    <string name="q_s_r_m_m">Please enter a password</string>
+    <string name="ok">"Ok"</string>
+    <string name="cancel">Cancel</string>
+    <string name="mima_error">Incorrect password</string>
+    <string name="server_addr">Server address：</string>
+    <string name="device_name">Device name:</string>
+    <string name="save">Save</string>
+    <string name="zu_one">Group1</string>
+    <string name="zu_two">Group2</string>
+    <string name="zu_three">Group3</string>
+
+    <array name="ItemArray">
+        <item>Video</item>
+        <item>Delete</item>
+        <item>Edit</item>
+        <item>Cancel</item>
+    </array>
+    <array name="rtsp">
+        <item>Delete</item>
+        <item>Edit</item>
+        <item>Cancel</item>
+    </array>
+
+    <string name="title_tishi">Prompt</string>
+    <string name="title_video_phone">Is a video call with contact%s</string>
+    <string name="title_what_delete">Delete contacts%s</string>
+    <string name="title_delete">Deleted：%s</string>
+    <string name="title_update">Modify contact information</string>
+    <string name="update">Update</string>
+    <string name="name_not_null">Equipment name can not be empty</string>
+    <string name="ip_not_null">IP address can not be empty</string>
+    <string name="ip_error">IP address format error</string>
+    <string name="name_len_error">User name must not exceed 6</string>
+    <string name="witre_update_info">Please fill in the information</string>
+    <string name="ip_exist">IP already exists</string>
+    <string name="name_upadte_succ">Name change</string>
+    <string name="name_upadte_error">Name change error</string>
+    <string name="upadte_succ">Change success</string>
+    <string name="add_other">Please select the required group to add to the user group！</string>
+    <string name="save_succ">Save success</string>
+    <string name="new_lxr_info">New contact information :%s</string>
+    <string name="group">Group</string>
+    <string name="ip_add">IP Address：</string>
+    <string name="dian_liang">Electricity：%s</string>
+    <string name="toask_speak">Please hold down the screen!</string>
+    <string name="toask_please_speak">\t\tPlease speak！\t\t</string>
+    <string name="toask_monitoring_speak">To monitor the need to press and hold down the screen！</string>
+    <string name="shoot">Photo|Video</string>
+    <string name="gasjc">GasDetection</string>
+    <string name="file">Read File</string>
+    <string name="monitor">Time Monitoring</string>
+    <string name="sysosetting">Settings</string>
+    <string name="intercom">Intercom</string>
+    <string name="videointercom">Video intercom</string>
+    <string name="videophone">Video Phone</string>
+    <string name="more">More</string>
+    <string name="add">Add</string>
+    <string name="camera">camera</string>
+    <string name="btn_bianji">Edit</string>
+    <string name="btn_jinyin">Mute</string>
+    <string name="btn_suoding">Lock</string>
+    <string name="btn_j_suoding">Unlock</string>
+    <string name="btn_adds_zu">Adds</string>
+    <string name="btn_queding">Add member</string>
+    <string name="selete_lxr">Choose a contact person</string>
+    <string name="service_gx">Updated%s data from the server list</string>
+
+    <!-- 监控翻译 -->
+    <string name="phone_not_electricity">Detection of mobile phone battery is insufficient, can not continue to monitor</string>
+    <string name="server_monitor">Server monitoring! Can not take the initiative to end！</string>
+    <string name="speak">\t\tPlease speak!\t\t</string>
+    <string name="speak_on">Please hold down the screen!</string>
+    <string name="dianliangbuzu">Detection of mobile phone battery is not enough, can not continue to video!</string>
+    <string name="size">Size：</string>
+
+    <!-- rtsp播放视频模块 -->
+    <string name="allcamera">All camera</string>
+    <string name="addcamera">Add camera</string>
+    <string name="address">Address:</string>
+    <string name="inputaddress">Please enter the camera address</string>
+    <string name="inputport">Please enter the camera port(Optional)</string>
+    <string name="port">Port:</string>
+    <string name="name">Name:</string>
+    <string name="inputname">Please enter the camera name</string>
+
+    <!-- 对讲模块 -->
+    <string name="selete_people">%s people have been selected</string>
+    <string name="pxs">320*240</string>
+    <string name="pxm">640*480</string>
+    <string name="pxl">1280*760</string>
+    <string name="signal">signal</string>
+    <string name="verywell">very well</string>
+    <string name="good">good</string>
+    <string name="difference">difference</string>
+    <string name="connect">Connect </string>
+    <string name="password_min_error">At Least 8 Bits Of Characters Can Be Accepted !</string>
+    <string name="no_conn_wifi">Wi-Fi Disconnected</string>
+    <string name="conn_wifi">Connect WiFi</string>
+    <string name="conn_ing">connection in ...</string>
+    <string name="str_conn">Has been connected to </string>
+    <string name="str_notconn">Not Connected</string>
+    <string name="net_mac_error">Subnet Mask Format Error</string>
+    <string name="yuming_error">domain name format error </string>
+    <string name="conn_input_pwd">please select a connection WIFI, password and </string>
+    <string name="ritht_title">Accelerate</string>
+    <string name="back">Return</string>
+    <string name="versionnum">V1.0.0</string>
+    <string name="press_again_exit">再按一次退出</string>
+    <string name="about">关于</string>
+    <string name="report">反馈建议</string>
+    <string name="setting">设置</string>
+    <string name="server_control_charset">传输编码</string>
+    <string name="utf8_title">UTF-8编码</string>
+    <string name="utf8_summary">系统FTP默认编码</string>
+    <string name="gbk_title">GBK编码</string>
+    <string name="gbk_summary">中文出现乱码时选择此项</string>
+    <string name="stay_awake_title">保持唤醒状态</string>
+    <string name="stay_awake_summary">使用FTP时屏幕不会休眠</string>
+    <string name="ftp_transfer_secure">传输安全</string>
+    <string name="ftp_port_number">端口号</string>
+    <string name="ftp_account_req_notice">您的用户名与密码长度必须为4－16字符。可以使用特殊符号，字母区分大小写。</string>
+    <string name="ftp_open_port_error">无法打开端口，请确认网络已连接或重新设置端口号。</string>
+    <string name="ftp_anonymous_login">匿名登录</string>
+    <string name="ftp_username_and_passworld">用户名与密码</string>
+    <string name="ftp_username_hint">用户名</string>
+    <string name="ftp_password_hint">密码</string>
+    <string name="ftp_invalid_username_or_password">用户名或密码无效</string>
+    <string name="start_server">启动服务</string>
+    <string name="stop_server">停止服务</string>
+    <string name="notif_server_starting">远程管理服务已启动</string>
+    <string name="notif_title">远程管理服务正在运行</string>
+    <string name="wifi_state">WLAN状态</string>
+    <string name="instruction_pre">启动后可以从电脑端远程管理手机文件</string>
+    <string name="instruction">请在“我的电脑”地址栏中输入：</string>
+    <string name="no_wifi">无WiFi网络</string>
+    <string name="no_wifi_hint">无WiFi网络,点击以查看WiFi设置</string>
+    <string name="storage_warning">外部存储不可用.</string>
+    <string name="app_error">应用程序错误</string>
+    <string name="app_error_message">很抱歉，应用程序出现错误，即将退出。\n请选择邮件的方式将此错误报告提交给我，我会尽快修复这个问题，谢谢！</string>
+    <string name="submit_report">提交报告</string>
+    <string name="username_validation_error">用户名至少需要包括一个或更多字符，不允许为空。</string>
+    <string name="password_validation_error">密码至少需要包括一个或更多字符，不允许为空。</string>
+    <string name="port_validation_error">端口号必须在 1 至 65535 之间。</string>
+    <string name="all_rights_reserved">Copyright © 2012-2013 Way. All Rights Reserved.</string>
+    <string name="app_information">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+        本应用是基于开源项目SwiFTP的一款轻量级FTP服务器，如果想了解更多,\
+        欢迎访问我的博客主页：http://blog.csdn.net/way_ping_li ,\
+        由于时间仓促，错误与疏忽之处在所难免,\
+        希望各位朋友们以邮件的形式反馈问题给我,再次表示感谢!</string>
+    <string name="help_dlg_message">\
+1.首先感谢您使用 FTP服务器！下面是简要的使用说明,更多\
+使用信息欢迎光临我的博客 http://blog.csdn.net/way_ping_li 查看。\n\n\
+\
+2.本应用是一个可以运行在您Android设备中的FTP服务，也就是说\
+当您开启本服务，就可以使用无线网络访问您设备指定目录中的\
+所有文件，例如在电脑的Chrome浏览器地址\
+栏中输入 \"ftp://...\" 。\n\n
+\
+3.本应用初始化用户名和密码均为 \"way\"，您可以在使用\
+时修改，也可以使用匿名访问。\n\n
+\
+4.在设置选项中的“保持设备唤醒”可以使您的设备\
+在运行本服务时不会进入休眠，如果您的设\
+备在息屏后传输速度变慢或完全停止，可以打开\
+此选项，并重启服务。\n\n
+\
+5.为了延长您设备的电池寿命，建议您在使用后关闭此服务。\n\n\
+\
+6.如果在使用本应用中遇到任何问题，都可以将问题反馈\
+给我(way.ping.li@gmail.com)。\n\n\
+\</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edittext_notice_0">回复...</string>
+    <string name="send">发送</string>
+    <string name="photo_not_connt_server">由于未购买服务器或未连接到服务器上，文件无法上传，本地处理方式为暂存至SD卡</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_server"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="FTP服务"/>
+    <item
+        android:id="@+id/action_open_gps"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="开启GPS"/>
+    <item
+        android:id="@+id/action_close_gps"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="关闭GPS"/>
+    <item
+        android:id="@+id/action_sos"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="SOS求助"/>
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="IBeacon录入"/>
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="退出系统"/>
+
+</menu>

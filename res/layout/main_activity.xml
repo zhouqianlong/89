@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/index_logo" />
+
+        <TextView
+            android:id="@+id/tvwifi"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right|top"
+            android:text="无信号"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_setting_audio"
+            android:layout_width="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left|bottom"
+            android:clickable="true"
+            android:padding="10dp"
+            android:background="@drawable/say_1"
+            />
+
+        <ImageView
+           android:id="@+id/iv_led_lamp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:clickable="true"
+            android:layout_marginRight="5dp"
+                android:scaleType="centerInside"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/led_lamp"
+           />
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left|top"
+            android:text="xxx"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="fill_parent"
+           	android:layout_height="fill_parent"
+            android:gravity="bottom|center"
+            android:text="可视对讲机"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.6"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/onRecording"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:drawableTop="@anim/entry_record"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onRecording"
+            android:text="@string/shoot"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/onMonitoring"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:drawableTop="@anim/entry_monitor"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onMonitoring"
+            android:text="@string/monitor"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+         <TextView
+            android:id="@+id/onGasDetection"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:drawableTop="@anim/entry_gas"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onGasDetection"
+            android:text="用户管理"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_video_duijiang"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:drawableTop="@anim/ic_voice_search"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onVideoDuiJiang"
+            android:text="@string/videointercom"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_duijiang"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:drawableTop="@anim/ic_media_route_off_holo_light"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onDuiJiang"
+            android:text="@string/intercom"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+         
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/onBrowsing"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black"
+                android:clickable="true"
+                android:drawableTop="@anim/entry_storage"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:onClick="onBrowsing"
+                android:text="@string/file"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_unread_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:background="@android:drawable/sym_action_chat"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.6"
+        android:orientation="horizontal" >
+  <TextView
+            android:id="@+id/tv_video_phone"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:drawableTop="@anim/diaodu"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/videophone"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+       <TextView
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:drawableTop="@anim/ic_menu_mapmode"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/tv_sos"
+            android:text="SOS求助"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+  
+     
+       <TextView
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:drawableTop="@anim/ic_menu_home"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/tv_led"
+            android:text="手电筒"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+       
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:drawableTop="@anim/ic_menu_mapmode"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:visibility="gone"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onGPSDuiJiang"
+            android:text="@string/gps_inter"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_all"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:drawableTop="@anim/ic_menu_home"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:visibility="gone"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onALL"
+            android:text="@string/more"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tv_setting"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="onSetting"
+            android:text="@string/sysosetting"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:gravity="center_horizontal|center_vertical"
+                android:onClick="onWorkHandler"
+                android:text="案件信息"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_work_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@android:drawable/sym_action_chat"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_online_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="未连接服务器"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

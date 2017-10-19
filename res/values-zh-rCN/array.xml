@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <array name="ItemArray">
+         <item>视频</item>
+         <item>消息</item>
+         <item>删除</item>
+         <item>编辑</item>
+         <item>取消</item>
+     </array>
+    
+</resources>

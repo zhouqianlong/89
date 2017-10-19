@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_menu_add"
+        android:title="手动添加联系人"/>
+    <item
+        android:id="@+id/action_adds"
+        android:icon="@drawable/ic_menu_friendslist"
+        android:title="查询附近联系人"/>
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@drawable/ic_menu_view"
+        android:title="查看我的摄像头"/>
+    <item
+        android:id="@+id/action_jinyin"
+        android:icon="@drawable/ic_volume_small"
+        android:title="设置喇叭静音模式"/>
+    <item
+        android:id="@+id/action_suoding"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="设置列表刷新模式"/>
+    <item
+        android:id="@+id/action_pindao"
+        android:icon="@drawable/ic_menu_myplaces"
+        android:title="频道一"/>
+    <item
+        android:id="@+id/action_switch_pindao"
+        android:icon="@drawable/ic_menu_myplaces"
+        android:title="切换频道讲话"/>
+    <item
+        android:id="@+id/action_mac_name"
+        android:icon="@android:drawable/ic_menu_crop"
+        android:title="切换名称显示"/>
+    <item
+        android:id="@+id/action_shuaxing"
+        android:icon="@android:drawable/ic_menu_crop"
+        android:title="检查在线列表"/>
+
+</menu>

@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$DummySectionFragment" >
+
+    <Button
+        android:id="@+id/btn_test"
+        android:text="检测甲烷"
+        android:layout_weight="1"
+        android:background="@android:drawable/btn_default_small"
+        android:layout_width="fill_parent"
+        android:textColor="@color/black"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="2"
+        android:id="@+id/tv_gasdata"
+        android:text="请点击上面按钮进行检测\n甲烷浓度量程:（0-4%）"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" />
+    
+    
+    <Button android:id="@+id/btn_add"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:text="浓度+"/>
+    
+    <Button android:id="@+id/btn_minus"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+          android:visibility="gone"
+        android:text="浓度-"/>
+
+  
+
+</LinearLayout>
+ 

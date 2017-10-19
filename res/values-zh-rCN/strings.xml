@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="register_name_digits">  ._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="app_name">音视频现场管理系统</string>
+    <string name="app_is_online">已连接服务器</string>
+    <string name="app_is_offline">未连接服务器</string>
+    <string name="contacting_server">正在联系服务器…</string>
+    <string name="obtaining_upgrade_info">正在获取升级信息…</string>
+    <string name="system_setting">系统设置</string>
+    <string name="video_and_photo">录像/拍照</string>
+    <string name="gas_detection">环境检测</string>
+    <string name="browser_file">浏览/文件</string>
+    <string name="real_time_monitor">实时监控</string>
+    <string name="opening">正在开启…</string>
+    <string name="preheating">预热中…</string>
+    <string name="operation_failed">设备状态异常,请重新测试.</string>
+    <string name="invalid_state">设备状态异常,请重新测试.</string>
+    <string name="timed_out">设备操作超时,请稍后重试.</string>
+    <string name="processing">正在处理…</string>
+    <string name="general">通用</string>
+    <string name="take_photo">拍照</string>
+    <string name="save">保存</string>
+    <string name="record_video">录像</string>
+    <string name="server_address">服务器地址</string>
+    <string name="control_port">控制端口</string>
+    <string name="video_port">视频端口</string>
+    <string name="audio_port">音频端口</string>
+    <string name="saved">已保存</string>
+    <string name="nothing_to_show">没有可供显示的内容</string>
+    <string name="directory">文件夹</string>
+    <string name="unknown_file">未知文件</string>
+    <string name="switch_camera">切换摄像头</string>
+    <string name="record">拍   摄</string>
+    <string name="stop">停止</string>
+    <string name="start_monitor">发起监控</string>
+    <string name="stop_monitor">结束监控</string>
+    <string name="being_monitored">正在监控&#8230;</string>
+    <string name="choose_priority">请选择优先级</string>
+    <string name="led">照明</string>
+    <string name="server_rejected_you">服务器拒绝了您的请求。</string>
+    <string name="connection_lost">网络连接出现错误，已经终止</string>
+    <string name="front_camera">前置摄像头</string>
+    <string name="back_camera">后置摄像头</string>
+    <string name="crash_log_saved_to">应用意外崩溃，日志已存至</string>
+    <string name="server_no_respond">服务器无响应</string>
+    <string name="waiting_for_background_service">等待后台服务启动…</string>
+    <string name="machine_number">机器识别码：</string>
+    <string name="enter_sn_here">请在此输入注册码</string>
+    <string name="copy">复制</string>
+    <string name="register">注册</string>
+    <string name="auto_register">远程注册</string>
+    <string name="fetching_remote_sn">正在远程获取注册序列号…</string>
+    <string name="copied">已复制</string>
+    <string name="succeeded">成功</string>
+    <string name="failed">失败</string>
+    <string name="please_check_your_sn">请检查您的注册序列号</string>
+    <string name="valid_date">注册有效期：</string>
+    <string name="from">从&#160;</string>
+    <string name="to">至&#160;</string>
+    <string name="delete">删除</string>
+    <string name="delete_success">已删除</string>
+    <string name="delete_fail">删除失败</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="image_file">图像文件</string>
+    <string name="pub_file">下发文件</string>
+    <string name="sensor_file">传感器文件</string>
+    <string name="video_file">录像文件</string>
+    <string name="tv_new">新</string>
+    <string name="confirm">确定</string>
+    <string name="mi_ma">密码</string>
+    <string name="q_s_r_m_m">请输入密码</string>
+    <string name="ok">"确定"</string>
+    <string name="cancel">取消</string>
+    <string name="input_address">请  输  入  记  录  地  点</string>
+    <string name="loading">正在获取数据…</string>
+    <string name="error_tip">状态提示</string>
+    <string name="file_save_success">文件保存成功</string>
+    <string name="file_save_fail">文件保存失败</string>
+    <string name="adress">请输入地点,地点不能为空</string>
+    <string name="fileOrderByDate">时间排序</string>
+    <string name="fileOrderByLeve">等级排序</string>
+    <string name="browse">横屏浏览</string>
+    <string name="browse_l">竖屏浏览</string>
+    <string name="mima_error">密码错误</string>
+    <string name="server_addr">服务器地址：</string>
+    <string name="gps_inter">定位对讲</string>
+    <string name="address_peizhi">地址配置</string>
+
+    <string-array name="priority">
+        <item>[1]&#160;普通</item>
+        <item>[2]&#160;重要</item>
+        <item>[3]&#160;紧急</item>
+    </string-array>
+
+    <array name="rtsp">
+        <item>删除</item>
+        <item>编辑</item>
+        <item>取消</item>
+    </array>
+
+    <string name="shoot">拍摄|录像</string>
+    <string name="gasjc">环境检测</string>
+    <string name="file">浏览文件</string>
+    <string name="monitor">联络中心</string>
+    <string name="sysosetting">设置</string>
+    <string name="intercom">语音对讲</string>
+    <string name="videointercom">视频对讲</string>
+    <string name="videophone">视频电话</string>
+    <string name="more">更多</string>
+    <string name="add">添加</string>
+    <string name="camera">摄像头</string>
+    <string name="btn_bianji">编辑</string>
+    <string name="btn_jinyin">静音</string>
+    <string name="btn_suoding">锁定</string>
+    <string name="btn_j_suoding">解锁</string>
+    <string name="btn_adds_zu">组加</string>
+    <string name="btn_queding">添加组员</string>
+    <string name="selete_lxr">请选择联系人</string>
+    <string name="service_gx">从服务器列表中更新了%s条数据</string>
+    <string name="new_lxr_info">新建联系人信息 :%s</string>
+    <string name="ip_add">IP地址：</string>
+    <string name="device_name">使用者名称:</string>
+    <string name="group">组</string>
+    <string name="zu_one">组1</string>
+    <string name="zu_two">组2</string>
+    <string name="zu_three">组3</string>
+    <string name="title_tishi">提示</string>
+    <string name="title_what_delete">是否删除联系人%s</string>
+    <string name="title_video_phone">是否与%s进行视频通话</string>
+    <string name="title_delete">已删除：%s</string>
+    <string name="title_update">修改联系人信息</string>
+    <string name="update">修改</string>
+    <string name="name_not_null">设备名不能为空</string>
+    <string name="ip_not_null">ip地址不能为空</string>
+    <string name="ip_error">IP地址格式错误</string>
+    <string name="name_len_error">用户名长度不能超过6位</string>
+    <string name="witre_update_info">请填写修改信息</string>
+    <string name="ip_exist">IP已存在</string>
+    <string name="name_upadte_succ">姓名修改成功</string>
+    <string name="name_upadte_error">姓名修改失败</string>
+    <string name="upadte_succ">修改成功</string>
+    <string name="add_other">请先选中所需组加到的用户组！</string>
+    <string name="save_succ">保存成功</string>
+    <string name="dian_liang">电量：%s</string>
+    <string name="toask_speak">请按住屏幕讲话!</string>
+    <string name="toask_please_speak">\t\t请讲话！\t\t</string>
+    <string name="toask_monitoring_speak">监控中，需要按住屏幕讲话！</string>
+
+    <!-- 监控翻译 -->
+    <string name="phone_not_electricity">检测到手机电量不足，无法继续监控！</string>
+    <string name="server_monitor">服务器监控中！无法主动结束！</string>
+    <string name="speak">\t\t请讲话！\t\t</string>
+    <string name="speak_on">请按住屏幕讲话!</string>
+    <string name="dianliangbuzu">检测到手机电量不足，无法继续录像！</string>
+    <string name="size">大小：</string>
+
+    <!-- rtsp播放视频模块 -->
+    <string name="allcamera">所有摄像头</string>
+    <string name="addcamera">新增摄像头</string>
+    <string name="address">地址:</string>
+    <string name="inputaddress">请输入摄像头地址</string>
+    <string name="inputport">请输入摄像头端口(选填)</string>
+    <string name="port">端口:</string>
+    <string name="name">名称:</string>
+    <string name="inputname">请输入摄像头名字</string>
+
+    <!-- 对讲模块 -->
+    <string name="selete_people">已选中%s人</string>
+    <string name="dandu">与%s:单独对讲中</string>
+    <string name="pxs">低像素</string>
+    <string name="pxm">中像素</string>
+    <string name="pxl">高像素</string>
+    <string name="signal">信号</string>
+    <string name="verywell">非常好</string>
+    <string name="good">好</string>
+    <string name="difference">差</string>
+
+    <array name="str_pindao">
+        <item>频道一</item>
+        <item>频道二</item>
+        <item>频道三</item>
+        <item>频道四</item>
+        <item>频道五</item>
+        <item>频道六</item>
+    </array>
+
+    <string name="title_section1">传感器</string>
+    <string name="title_section2">标定</string>
+    <string name="title_section3">关于</string>
+    <string name="password_min_error">密码至少输入8位</string>
+    <string name="connect">连接</string>
+    <string name="no_conn_wifi">未连接Wifi</string>
+    <string name="conn_ing">连接中...</string>
+    <string name="str_conn">已连接</string>
+    <string name="str_notconn">未连接</string>
+    <string name="net_mac_error">子网掩码格式有误</string>
+    <string name="yuming_error">域名格式有误</string>
+    <string name="conn_input_pwd">请选择需要连接的WIFI,并且输入密码!</string>
+    <string name="ritht_title">右侧标题</string>
+    <string name="back">返回</string>
+    <string name="versionnum">V1.0.0</string>
+    <string name="press_again_exit">再按一次退出</string>
+    <string name="about">关于</string>
+    <string name="report">反馈建议</string>
+    <string name="setting">设置</string>
+    <string name="server_control_charset">传输编码</string>
+    <string name="utf8_title">UTF-8编码</string>
+    <string name="utf8_summary">系统FTP默认编码</string>
+    <string name="gbk_title">GBK编码</string>
+    <string name="gbk_summary">中文出现乱码时选择此项</string>
+    <string name="stay_awake_title">保持唤醒状态</string>
+    <string name="stay_awake_summary">使用FTP时屏幕不会休眠</string>
+    <string name="ftp_transfer_secure">传输安全</string>
+    <string name="ftp_port_number">端口号</string>
+    <string name="ftp_account_req_notice">您的用户名与密码长度必须为4－16字符。可以使用特殊符号，字母区分大小写。</string>
+    <string name="ftp_open_port_error">无法打开端口，请确认网络已连接或重新设置端口号。</string>
+    <string name="ftp_anonymous_login">匿名登录</string>
+    <string name="ftp_username_and_passworld">用户名与密码</string>
+    <string name="ftp_username_hint">用户名</string>
+    <string name="ftp_password_hint">密码</string>
+    <string name="ftp_invalid_username_or_password">用户名或密码无效</string>
+    <string name="start_server">启动服务</string>
+    <string name="stop_server">停止服务</string>
+    <string name="notif_server_starting">远程管理服务已启动</string>
+    <string name="notif_title">远程管理服务正在运行</string>
+    <string name="wifi_state">WLAN状态</string>
+    <string name="instruction_pre"></string>
+    <string name="instruction"></string>
+    <string name="no_wifi">无WiFi网络</string>
+    <string name="no_wifi_hint">无WiFi网络,点击以查看WiFi设置</string>
+    <string name="storage_warning">外部存储不可用.</string>
+    <string name="app_error">应用程序错误</string>
+    <string name="app_error_message">很抱歉，应用程序出现错误，即将退出。\n请选择邮件的方式将此错误报告提交给我，我会尽快修复这个问题，谢谢！</string>
+    <string name="submit_report">提交报告</string>
+    <string name="username_validation_error">用户名至少需要包括一个或更多字符，不允许为空。</string>
+    <string name="password_validation_error">密码至少需要包括一个或更多字符，不允许为空。</string>
+    <string name="port_validation_error">端口号必须在 1 至 65535 之间。</string>
+    <string name="all_rights_reserved">Copyright © 2012-2013 Way. All Rights Reserved.</string>
+    <string name="app_information">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+        本应用是基于开源项目SwiFTP的一款轻量级FTP服务器，如果想了解更多,\
+        欢迎访问我的博客主页：http://blog.csdn.net/way_ping_li ,\
+        由于时间仓促，错误与疏忽之处在所难免,\
+        希望各位朋友们以邮件的形式反馈问题给我,再次表示感谢!</string>
+    <string name="help_dlg_message">\
+1.首先感谢您使用 FTP服务器！下面是简要的使用说明,更多\
+使用信息欢迎光临我的博客 http://blog.csdn.net/way_ping_li 查看。\n\n\
+\
+2.本应用是一个可以运行在您Android设备中的FTP服务，也就是说\
+当您开启本服务，就可以使用无线网络访问您设备指定目录中的\
+所有文件，例如在电脑的Chrome浏览器地址\
+栏中输入 \"ftp://...\" 。\n\n
+\
+3.本应用初始化用户名和密码均为 \"way\"，您可以在使用\
+时修改，也可以使用匿名访问。\n\n
+\
+4.在设置选项中的“保持设备唤醒”可以使您的设备\
+在运行本服务时不会进入休眠，如果您的设\
+备在息屏后传输速度变慢或完全停止，可以打开\
+此选项，并重启服务。\n\n
+\
+5.为了延长您设备的电池寿命，建议您在使用后关闭此服务。\n\n\
+\
+6.如果在使用本应用中遇到任何问题，都可以将问题反馈\
+给我(way.ping.li@gmail.com)。\n\n\
+\</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edittext_notice_0">回复...</string>
+    <string name="send">发送</string>
+    <string name="photo_not_connt_server">由于未购买服务器或未连接到服务器上，文件无法上传，本地处理方式为暂存至SD卡</string>
+
+</resources>
